@@ -39,33 +39,9 @@ Keep the script, CSV file, and both plate-model files together in the same worki
 
 The distributed table spans 0.1-1000 Ma. Repeated coordinates and ages can represent different input records and are retained. The table is the reconstruction input, not a complete table of oxygen isotope measurements. Consult the associated study and its supplementary datasets for sample provenance and isotope data.
 
-## Installation
-
-The English translation was validated on Windows with Python 3.12.14, pyGPlates 1.0.0, and pandas 3.0.1. These are the validation environment versions, not a claim about the environment originally used to prepare the manuscript.
-
-Create a Python 3.12 virtual environment, activate it, and install the dependencies:
-
-```bash
-python -m venv .venv
-```
-
-Windows PowerShell:
-
-```powershell
-.\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-```
-
-macOS or Linux:
-
-```bash
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-```
-
-The same workflow may run on other compatible systems, but those platforms were not tested for this release. See the [official pyGPlates installation guide](https://www.gplates.org/docs/pygplates/pygplates_getting_started.html) for supported platforms and binary-library requirements.
-
 ## Run
+
+The translation was validated on Windows with Python 3.12.14, pyGPlates 1.0.0, and pandas 3.0.1. These are the validation environment versions, not a claim about the environment originally used to prepare the manuscript.
 
 From the directory containing all four input/script files:
 
